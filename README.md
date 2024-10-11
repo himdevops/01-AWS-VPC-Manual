@@ -45,7 +45,7 @@
 - Click on **Create**
 ### Step-06-02: Create Public Route in newly created Route Table
 - Click on **Add Route**
-- **Destination:** 0.0.0.0/0
+- **Destination:** 0.0.0.0/0  (internet)
 - **Target:** my-igw
 - Click on **Save Route**
 ### Step-06-03: Associate Public Subnet 1 in Route Table
@@ -61,7 +61,7 @@
 - Click on **Create**
 ### Step-07-02: Create Private Route in newly created Route Table
 - Click on **Add Route**
-- **Destination:** 0.0.0.0/0
+- **Destination:** 0.0.0.0/0 (internet)
 - **Target:** my-nat-gateway
 - Click on **Save Route**
 ### Step-07-03: Associate Private Subnet 1 in Route Table
