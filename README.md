@@ -33,7 +33,7 @@
 - Click on Actions -> Attach to VPC -> my-manual-vpc
 
 ## Step-05: Create NAT Gateway
-- **Name:** my-nat-gateway
+- **Name:** my-nat-gateway    (alway be in public subnet and needs EIP)
 - **Subnet:** my-public-subnet-1
 - **Allocate Elastic Ip:** click on that
 - Click on **Create NAT Gateway**
